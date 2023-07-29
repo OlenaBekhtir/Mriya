@@ -1,0 +1,28 @@
+header {
+    text-align: center;
+}
+
+.bg-image {
+    /* Указываем путь к картинке, начиная с корня сайта */
+    background-image: url('img/foto1.jpg');
+    /* Устанавливаем повторение фона, если он меньше области элемента */
+    background-repeat: no-repeat;
+    /* Устанавливаем положение фона на странице */
+    background-position: center center;
+    /* Устанавливаем размер фона */
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .content {
+    /* Некоторые стили для улучшения читаемости */
+    color: #000;
+    padding: 20px;
+    /* Задаем прозрачность контента на фоне */
+    background-color: rgba(242, 242, 246, 0.6);
+    /* Создаем новый контекст для позиционирования текста поверх фона */
+    position: relative;
+    /* Устанавливаем z-index, чтобы текст отображался поверх фона */
+    z-index: 1;
+    min-height: 100vh;
+  }
