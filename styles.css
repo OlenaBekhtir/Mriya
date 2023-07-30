@@ -2,6 +2,15 @@ header {
     text-align: center;
 }
 
+.wrap-logo {
+  display: flex;
+}
+
+.logo {
+  padding: 10px;
+  border: 10px;
+}
+
 .bg-image {
     /* Указываем путь к картинке, начиная с корня сайта */
     background-image: url('img/foto1.jpg');
@@ -26,3 +35,29 @@ header {
     z-index: 1;
     min-height: 100vh;
   }
+
+  .phone {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 18px;
+    padding-left: 10px;
+}
+
+.phone:hover {
+    color: #008040;
+    cursor: pointer;
+}
+
+.bi:hover {
+  color: #008040;
+  cursor: pointer;
+}
+
+.link-icon {
+  color: #FFFFFF;
+}
+
+footer {
+  margin-top: -24px;
+}
